@@ -912,7 +912,7 @@ def generar_tarjeta_entrenador(
     accent_color = tuple(cfg.get("accent_color", (90, 120, 150)))
 
     title_color = tuple(cfg.get("title_color", (50, 70, 100)))
-    text_color = (255,255,255)
+    text_color = tuple(cfg.get("text_color", (30, 30, 30)))
 
     separator_color = tuple(cfg.get("separator_color", (210, 210, 210)))
     decor_line_color = tuple(cfg.get("decor_line_color", separator_color))
@@ -955,9 +955,9 @@ def generar_tarjeta_entrenador(
     )
 
     try:
-        title_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 42)
-        label_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 28)
-        text_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Regular.ttf"), 26)
+        title_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 46)
+        label_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 34)
+        text_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Regular.ttf"), 32)
         badge_font = ImageFont.truetype(os.path.join(FONT_PATH,"seguiemj.ttf"), 40)
     except:
         title_font = label_font = text_font = badge_font = ImageFont.load_default()
@@ -993,7 +993,7 @@ def generar_tarjeta_entrenador(
 
     # fuente bold un poco más grande
     try:
-        name_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 34)
+        name_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 40)
     except:
         name_font = text_font
 
