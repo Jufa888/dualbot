@@ -1,0 +1,30 @@
+{
+  "pokemon_machine": [
+    { "name": "aron", "type": "steel" },
+    { "name": "squirtle", "type": "water" },
+    { "name": "weedle", "type": "bug" },
+    { "name": "dratini", "type": "dragon" },
+    { "name": "mareep", "type": "electric" },
+    { "name": "gastly", "type": "ghost" },
+    { "name": "charmander", "type": "fire" },
+    { "name": "cleffa", "type": "fairy" },
+    { "name": "frigibax", "type": "ice" },
+    { "name": "torchic", "type": "fighting" },
+    { "name": "starly", "type": "normal" },
+    { "name": "bulbasaur", "type": "grass" },
+    { "name": "ralts", "type": "psychic" },
+    { "name": "larvitar", "type": "rock" },
+    { "name": "froakie", "type": "dark" },
+    { "name": "gible", "type": "ground" },
+    { "name": "bellsprout", "type": "poison" },
+    { "name": "pidgey", "type": "flying" }
+  ],
+  "avatar_machine": [
+  { "name": "Ethan" },
+  { "name": "Lyra" },
+  { "name": "Brendan" },
+  { "name": "May" },
+  { "name": "Lucas" },
+  { "name": "Dawn" }
+]
+}

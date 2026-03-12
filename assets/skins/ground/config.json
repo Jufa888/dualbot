@@ -1,0 +1,22 @@
+{
+  "bg_top": [60, 40, 20],
+  "bg_bottom": [40, 25, 10],
+
+  "panel_color": [240, 240, 240],
+
+  "accent_color": [160, 110, 60],
+
+  "exp_bar_fill": [200, 140, 80],
+  "exp_bar_bg": [200, 200, 200],
+
+  "text_color": [0, 0, 0],
+  "title_color": [160, 110, 60],
+
+  "outline_color": [185, 190, 195],
+  "inner_outline_color": [185, 190, 195],
+
+  "separator_color": [185, 190, 195],
+  "decor_line_color": [185, 190, 195],
+
+  "badge_panel_color": [200, 150, 100]
+}

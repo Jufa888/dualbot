@@ -1,0 +1,529 @@
+{
+    "501056151073456129": {
+        "pokemon": "starly",
+        "starter": "starly",
+        "nivel": 14,
+        "exp": 400,
+        "trainer_name": "PenjaminZaza",
+        "gender": "Masculino",
+        "available": false,
+        "equipped": {
+            "avatar": "Dawn",
+            "pokemon": "starly",
+            "ui_skin_card": "dark",
+            "ui_skin_team": "rock",
+            "badge": [],
+            "badges": [
+                "jovenm",
+                "rango joven",
+                "jovenM",
+                "entrenadorM"
+            ]
+        },
+        "inventory": {
+            "avatars": [
+                "Rojo",
+                "Verde",
+                "Dawn"
+            ],
+            "pokemons": [
+                "starly",
+                "froakie",
+                "frigibax",
+                "gible",
+                "weedle",
+                "cleffa",
+                "ralts",
+                "mareep"
+            ],
+            "ui_skins": [
+                "default",
+                "rock",
+                "poison",
+                "dark",
+                "ice",
+                "ground",
+                "bug",
+                "fairy",
+                "psychic",
+                "electric"
+            ],
+            "badges": [
+                "jovenm",
+                "jovenM",
+                "entrenadorM",
+                "cazabichosM"
+            ]
+        },
+        "recent_matches": [],
+        "league_position": 1,
+        "monedas_dual": 4,
+        "search_cooldown": 0,
+        "monedas_elite": 2,
+        "elite_last_reward": "2026-03-12T10:48:24.470528"
+    },
+    "752618424064016515": {
+        "pokemon": "torchic",
+        "starter": "torchic",
+        "nivel": 0,
+        "exp": 0,
+        "trainer_name": "ZNasce",
+        "gender": "Masculino",
+        "available": false,
+        "equipped": {
+            "avatar": "Rojo",
+            "pokemon": "torchic",
+            "ui_skin": "default",
+            "ui_skin_card": "default",
+            "ui_skin_team": "default",
+            "badges": []
+        },
+        "updated_at": "2026-02-17 20:49:44.508228",
+        "inventory": {
+            "avatars": [
+                "Rojo",
+                "Verde"
+            ],
+            "pokemons": [
+                "torchic"
+            ],
+            "ui_skins": [
+                "default"
+            ],
+            "badges": []
+        },
+        "recent_matches": [],
+        "league_position": null,
+        "monedas_dual": 0,
+        "monedas_elite": 0,
+        "search_cooldown": 0
+    },
+    "1473612671353094195": {
+        "pokemon": "charmander",
+        "starter": "charmander",
+        "nivel": 0,
+        "exp": 0,
+        "trainer_name": "Carlugo",
+        "gender": "Masculino",
+        "available": false,
+        "equipped": {
+            "avatar": "Rojo",
+            "pokemon": "charmander",
+            "ui_skin_card": "default",
+            "ui_skin_team": "default",
+            "badges": []
+        },
+        "inventory": {
+            "avatars": [
+                "Rojo",
+                "Verde"
+            ],
+            "pokemons": [
+                "charmander"
+            ],
+            "ui_skins": [
+                "default",
+                "fire"
+            ],
+            "badges": []
+        },
+        "recent_matches": [],
+        "league_position": 2,
+        "monedas_dual": 0,
+        "monedas_elite": 0,
+        "search_cooldown": 0
+    },
+    "242516839463124992": {
+        "pokemon": "squirtle",
+        "starter": "squirtle",
+        "nivel": 14,
+        "exp": 400,
+        "trainer_name": "Spectro",
+        "gender": "Masculino",
+        "available": false,
+        "equipped": {
+            "avatar": "Rojo",
+            "pokemon": "squirtle",
+            "ui_skin": "default",
+            "ui_skin_card": "default",
+            "ui_skin_team": "default",
+            "badges": []
+        },
+        "updated_at": "2026-02-24 19:38:25.625837",
+        "inventory": {
+            "avatars": [
+                "Rojo",
+                "Verde"
+            ],
+            "pokemons": [
+                "squirtle"
+            ],
+            "ui_skins": [
+                "default"
+            ],
+            "badges": []
+        },
+        "recent_matches": [],
+        "league_position": null,
+        "monedas_dual": 0,
+        "monedas_elite": 0,
+        "search_cooldown": 0
+    },
+    "1477308057741693085": {
+        "pokemon": "squirtle",
+        "starter": "squirtle",
+        "nivel": 0,
+        "exp": 0,
+        "trainer_name": "David",
+        "gender": "Femenino",
+        "available": false,
+        "equipped": {
+            "avatar": "Verde",
+            "pokemon": "squirtle",
+            "ui_skin_card": "water",
+            "ui_skin_team": "water",
+            "badges": []
+        },
+        "inventory": {
+            "avatars": [
+                "Rojo",
+                "Verde"
+            ],
+            "pokemons": [
+                "squirtle"
+            ],
+            "ui_skins": [
+                "default",
+                "water"
+            ],
+            "badges": []
+        },
+        "league_position": 3,
+        "recent_matches": [],
+        "monedas_dual": 0,
+        "monedas_elite": 0,
+        "search_cooldown": 0
+    },
+    "1017114653492527135": {
+        "pokemon": "gengar-mega",
+        "starter": "gastly",
+        "nivel": 50,
+        "exp": 200,
+        "trainer_name": "Jufa",
+        "gender": "Masculino",
+        "available": false,
+        "equipped": {
+            "avatar": "Ethan",
+            "pokemon": "blastoise-mega_shiny",
+            "ui_skin": "default",
+            "ui_skin_card": "rocket",
+            "ui_skin_team": "rocket",
+            "badges": [
+                "shiny",
+                "inrocket",
+                "maestroM",
+                "campeonM",
+                "primera_gen",
+                "segunda_gen",
+                "tercera_gen",
+                "cuarta_gen",
+                "quinta_gen",
+                "sexta_gen",
+                "septima_gen",
+                "octava_gen"
+            ]
+        },
+        "updated_at": "2026-03-05 07:43:53.111609",
+        "inventory": {
+            "avatars": [
+                "Rojo",
+                "Verde",
+                "Oro",
+                "Lucas",
+                "Dawn",
+                "May",
+                "Plata",
+                "Brendan",
+                "Lyra",
+                "Ethan",
+                "Giovanni"
+            ],
+            "pokemons": [
+                "aggron-mega",
+                "beedrill-mega",
+                "greninja-mega",
+                "tyranitar-mega",
+                "baxcalibur-mega",
+                "gardevoir-mega_shiny",
+                "staraptor-mega",
+                "garchomp-mega",
+                "ampharos-mega",
+                "blaziken-mega",
+                "pidgeot-mega",
+                "victreebel-mega",
+                "venusaur-mega",
+                "dragonite-mega",
+                "clefable-mega_shiny",
+                "charizard-mega-x",
+                "gengar-mega",
+                "blastoise-mega_shiny",
+                "mewtwo"
+            ],
+            "ui_skins": [
+                "default",
+                "ghost",
+                "steel",
+                "bug",
+                "dark",
+                "rock",
+                "ice",
+                "psychic",
+                "water",
+                "normal",
+                "ground",
+                "electric",
+                "fighting",
+                "fire",
+                "flying",
+                "poison",
+                "grass",
+                "dragon",
+                "fairy",
+                "rocket"
+            ],
+            "badges": [
+                "jovenM",
+                "entrenadorM",
+                "cazabichosM",
+                "montaneroM",
+                "especialistaM",
+                "veteranoM",
+                "liderM",
+                "altoMandoM",
+                "campeonM",
+                "maestroM",
+                "primera_gen",
+                "segunda_gen",
+                "tercera_gen",
+                "cuarta_gen",
+                "quinta_gen",
+                "sexta_gen",
+                "septima_gen",
+                "octava_gen",
+                "shiny",
+                "inrocket"
+            ]
+        },
+        "league_position": 1,
+        "monedas_dual": 19,
+        "recent_matches": [],
+        "search_cooldown": 1773340700.6262321,
+        "monedas_elite": 11,
+        "elite_last_reward": "2026-03-10T16:35:46.287768",
+        "test_mode": true
+    },
+    "1481210749291331787": {
+        "pokemon": "frigibax",
+        "starter": "frigibax",
+        "nivel": 0,
+        "exp": 0,
+        "trainer_name": "Yufa",
+        "gender": "Verde",
+        "available": false,
+        "equipped": {
+            "avatar": "Verde",
+            "pokemon": "frigibax",
+            "ui_skin_card": "default",
+            "ui_skin_team": "default",
+            "badges": [
+                "jovenM"
+            ]
+        },
+        "updated_at": "2026-03-11 11:39:58.807045",
+        "inventory": {
+            "avatars": [
+                "Rojo",
+                "Verde"
+            ],
+            "pokemons": [
+                "frigibax"
+            ],
+            "ui_skins": [
+                "default",
+                "ice"
+            ],
+            "badges": [
+                "jovenM"
+            ]
+        },
+        "league_position": 4,
+        "monedas_dual": 0,
+        "monedas_elite": 0,
+        "search_cooldown": 1773231686.5963812,
+        "recent_matches": []
+    },
+    "1376612034493546496": {
+        "pokemon": "frigibax",
+        "starter": "frigibax",
+        "nivel": 0,
+        "exp": 0,
+        "trainer_name": "Samuelsr28",
+        "gender": "Rojo",
+        "available": false,
+        "equipped": {
+            "avatar": "Brendan",
+            "pokemon": "mewtwo",
+            "ui_skin_card": "rocket",
+            "ui_skin_team": "ground",
+            "badges": [
+                "jovenM"
+            ]
+        },
+        "updated_at": "2026-03-11 13:31:16.535985",
+        "inventory": {
+            "avatars": [
+                "Rojo",
+                "Verde",
+                "Brendan"
+            ],
+            "pokemons": [
+                "frigibax",
+                "dratini",
+                "charmander",
+                "pidgey",
+                "aron",
+                "larvitar",
+                "gible",
+                "ralts",
+                "mareep",
+                "cleffa",
+                "mewtwo"
+            ],
+            "ui_skins": [
+                "default",
+                "ice",
+                "dragon",
+                "fire",
+                "flying",
+                "steel",
+                "rock",
+                "ground",
+                "psychic",
+                "rocket",
+                "electric",
+                "fairy"
+            ],
+            "badges": [
+                "jovenM"
+            ]
+        },
+        "league_position": 5,
+        "monedas_dual": 0,
+        "monedas_elite": 0,
+        "search_cooldown": 1773236961.959619,
+        "recent_matches": [],
+        "elite_last_reward": "2026-03-11T13:52:25.667813"
+    },
+    "1469460010537979966": {
+        "pokemon": "charmander",
+        "starter": "charmander",
+        "nivel": 6,
+        "exp": 400,
+        "trainer_name": "Fran",
+        "gender": "Rojo",
+        "available": false,
+        "equipped": {
+            "avatar": "Rojo",
+            "pokemon": "torchic_shiny",
+            "ui_skin_card": "rocket",
+            "ui_skin_team": "fire",
+            "badges": [
+                "jovenM",
+                "entrenadorM",
+                "shiny",
+                "inrocket"
+            ]
+        },
+        "updated_at": "2026-03-11 16:14:59.622100",
+        "inventory": {
+            "avatars": [
+                "Rojo",
+                "Verde"
+            ],
+            "pokemons": [
+                "charmander",
+                "froakie",
+                "torchic_shiny"
+            ],
+            "ui_skins": [
+                "default",
+                "fire",
+                "dark",
+                "fighting",
+                "rocket"
+            ],
+            "badges": [
+                "jovenM",
+                "entrenadorM",
+                "shiny",
+                "inrocket"
+            ]
+        },
+        "league_position": 1,
+        "monedas_dual": 2,
+        "monedas_elite": 0,
+        "search_cooldown": 1773246836.5552197,
+        "recent_matches": [],
+        "elite_last_reward": "2026-03-11T16:41:11.496079"
+    },
+    "434089258559733761": {
+        "pokemon": "gible",
+        "starter": "gible",
+        "nivel": 6,
+        "exp": 400,
+        "trainer_name": "watonculiao",
+        "gender": "Rojo",
+        "available": false,
+        "equipped": {
+            "avatar": "May",
+            "pokemon": "mewtwo",
+            "ui_skin_card": "rocket",
+            "ui_skin_team": "ground",
+            "badges": [
+                "entrenadorM"
+            ]
+        },
+        "updated_at": "2026-03-12 18:15:15.946852",
+        "inventory": {
+            "avatars": [
+                "Rojo",
+                "Verde",
+                "May",
+                "Lucas"
+            ],
+            "pokemons": [
+                "gible",
+                "bellsprout",
+                "mewtwo",
+                "bulbasaur"
+            ],
+            "ui_skins": [
+                "default",
+                "ground",
+                "poison",
+                "rocket",
+                "grass"
+            ],
+            "badges": [
+                "jovenM",
+                "entrenadorM"
+            ]
+        },
+        "league_position": 2,
+        "monedas_dual": 0,
+        "monedas_elite": 0,
+        "search_cooldown": 1773340677.9870408,
+        "elite_last_reward": "2026-03-12T18:21:16.764317",
+        "recent_matches": []
+    }
+}

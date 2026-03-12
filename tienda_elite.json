@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "type": "pokemon",
+      "id": "mewtwo"
+    },
+    {
+      "type": "ui_skin",
+      "id": "rocket"
+    },
+    {
+      "type": "avatar",
+      "id": "Giovanni"
+    },
+    {
+      "type": "badge",
+      "id": "inrocket"
+    }
+  ]
+}
