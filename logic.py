@@ -9,6 +9,8 @@ import time
 from io import BytesIO
 from PIL import Image, ImageFont, ImageDraw
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FONT_PATH = os.path.join(BASE_DIR, "assets", "fonts")
 SKINS_PATH = "assets/skins"
 
 def load_skin_config(skin_name="default"):
@@ -952,13 +954,11 @@ def generar_tarjeta_entrenador(
         width=2
     )
 
-
-
     try:
-        title_font = ImageFont.truetype("arialbd.ttf", 40)
-        label_font = ImageFont.truetype("arialbd.ttf", 24)
-        text_font = ImageFont.truetype("arial.ttf", 24)
-        badge_font = ImageFont.truetype("C:/Windows/Fonts/seguiemj.ttf", 40)
+        title_font = ImageFont.truetype(os.path.join(FONT_PATH,"arialbd.ttf"), 40)
+        label_font = ImageFont.truetype(os.path.join(FONT_PATH,"arialbd.ttf"), 24)
+        text_font = ImageFont.truetype(os.path.join(FONT_PATH,"arial.ttf"), 24)
+        badge_font = ImageFont.truetype(os.path.join(FONT_PATH,"seguiemj.ttf"), 40)
     except:
         title_font = label_font = text_font = badge_font = ImageFont.load_default()
 
@@ -993,7 +993,7 @@ def generar_tarjeta_entrenador(
 
     # fuente bold un poco más grande
     try:
-        name_font = ImageFont.truetype("arialbd.ttf", 28)
+        name_font = ImageFont.truetype(os.path.join(FONT_PATH,"arialbd.ttf"), 28)
     except:
         name_font = text_font
 
