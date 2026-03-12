@@ -1009,10 +1009,13 @@ def generar_tarjeta_entrenador(
     x_text = 80
     y_text = 140
 
-    draw.text((x_text, y_text), "Nombre:", fill=text_color, font=label_font)
+    label_nombre = "Nombre:"
+    draw.text((x_text, y_text), label_nombre, fill=text_color, font=label_font)
 
-    nombre_x = x_text + 110
-    nombre_y = y_text - 2  # pequeño ajuste para mantener alineación al aumentar tamaño
+    label_width = draw.textlength(label_nombre, font=label_font)
+
+    nombre_x = x_text + label_width + 12
+    nombre_y = y_text - 2
 
     # fuente bold un poco más grande
     try:
@@ -1039,13 +1042,21 @@ def generar_tarjeta_entrenador(
         font=name_font
     )
 
-    draw.text((x_text, y_text+40), "Rango:", fill=text_color, font=label_font)
-    draw.text((x_text+100, y_text+40), rango, fill=text_color, font=text_font)
+    label_rango = "Rango:"
+    draw.text((x_text, y_text+40), label_rango, fill=text_color, font=label_font)
+
+    label_width = draw.textlength(label_rango, font=label_font)
+
+    draw.text((x_text + label_width + 12, y_text+40), rango, fill=text_color, font=text_font)
 
     posicion_texto = f"Top {puntos}" if puntos is not None else "—"
 
-    draw.text((x_text, y_text+80), "Posición de liga:", fill=text_color, font=label_font)
-    draw.text((x_text+210, y_text+80), posicion_texto, fill=text_color, font=text_font)
+    label_pos = "Posición de liga:"
+    draw.text((x_text, y_text+80), label_pos, fill=text_color, font=label_font)
+
+    label_width = draw.textlength(label_pos, font=label_font)
+
+    draw.text((x_text + label_width + 12, y_text+80), posicion_texto, fill=text_color, font=text_font)
 
     # ===== PANEL INSIGNIAS =====
     badge_left = x_text - 10
