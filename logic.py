@@ -954,10 +954,19 @@ def generar_tarjeta_entrenador(
         width=2
     )
 
+    print("----- DEBUG FUENTES -----")
+    print("BASE_DIR:", BASE_DIR)
+    print("FONT_PATH:", FONT_PATH)
+
     try:
-        title_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 46)
-        label_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 34)
-        text_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Regular.ttf"), 32)
+        print("Archivos en carpeta fonts:", os.listdir(FONT_PATH))
+    except Exception as e:
+        print("Error listando fonts:", e)
+
+    try:
+        title_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 42)
+        label_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 28)
+        text_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Regular.ttf"), 26)
         badge_font = ImageFont.truetype(os.path.join(FONT_PATH,"seguiemj.ttf"), 40)
     except:
         title_font = label_font = text_font = badge_font = ImageFont.load_default()
@@ -993,7 +1002,7 @@ def generar_tarjeta_entrenador(
 
     # fuente bold un poco más grande
     try:
-        name_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 40)
+        name_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 34)
     except:
         name_font = text_font
 
