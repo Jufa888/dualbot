@@ -912,7 +912,7 @@ def generar_tarjeta_entrenador(
     accent_color = tuple(cfg.get("accent_color", (90, 120, 150)))
 
     title_color = tuple(cfg.get("title_color", (50, 70, 100)))
-    text_color = tuple(cfg.get("text_color", (30, 30, 30)))
+    text_color = (255,255,255)
 
     separator_color = tuple(cfg.get("separator_color", (210, 210, 210)))
     decor_line_color = tuple(cfg.get("decor_line_color", separator_color))
