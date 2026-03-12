@@ -955,9 +955,9 @@ def generar_tarjeta_entrenador(
     )
 
     try:
-        title_font = ImageFont.truetype(os.path.join(FONT_PATH,"arialbd.ttf"), 40)
-        label_font = ImageFont.truetype(os.path.join(FONT_PATH,"arialbd.ttf"), 24)
-        text_font = ImageFont.truetype(os.path.join(FONT_PATH,"arial.ttf"), 24)
+        title_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 42)
+        label_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 28)
+        text_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Regular.ttf"), 26)
         badge_font = ImageFont.truetype(os.path.join(FONT_PATH,"seguiemj.ttf"), 40)
     except:
         title_font = label_font = text_font = badge_font = ImageFont.load_default()
@@ -993,7 +993,7 @@ def generar_tarjeta_entrenador(
 
     # fuente bold un poco más grande
     try:
-        name_font = ImageFont.truetype(os.path.join(FONT_PATH,"arialbd.ttf"), 28)
+        name_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 34)
     except:
         name_font = text_font
 
