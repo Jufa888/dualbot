@@ -963,13 +963,27 @@ def generar_tarjeta_entrenador(
     except Exception as e:
         print("Error listando fonts:", e)
 
-    try:
-        title_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 42)
-        label_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Bold.ttf"), 28)
-        text_font = ImageFont.truetype(os.path.join(FONT_PATH,"Roboto-Regular.ttf"), 26)
-        badge_font = ImageFont.truetype(os.path.join(FONT_PATH,"seguiemj.ttf"), 40)
-    except:
-        title_font = label_font = text_font = badge_font = ImageFont.load_default()
+
+    # ===== DEBUG CARGA DE FUENTES =====
+
+    def debug_font(name, size):
+        path = os.path.join(FONT_PATH, name)
+
+        try:
+            print("Intentando cargar fuente:", path)
+            font = ImageFont.truetype(path, size)
+            print("OK fuente cargada:", name)
+            return font
+
+        except Exception as e:
+            print("ERROR cargando fuente:", name, "->", e)
+            return ImageFont.load_default()
+
+
+    title_font = debug_font("Roboto-Bold.ttf", 42)
+    label_font = debug_font("Roboto-Bold.ttf", 28)
+    text_font = debug_font("Roboto-Regular.ttf", 26)
+    badge_font = debug_font("seguiemj.ttf", 40)
 
     title = "TARJETA DE ENTRENADOR"
     tw = draw.textlength(title, font=title_font)
