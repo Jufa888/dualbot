@@ -1089,7 +1089,7 @@ def generar_tarjeta_entrenador(
     V_SPACING = usable_height // ROWS
 
     start_x = badge_left + INNER_PADDING
-    start_y = badge_top + INNER_PADDING
+    start_y = badge_top + INNER_PADDING - 12
 
     badges_to_draw = badge_equipped[:MAX_BADGES]
 
